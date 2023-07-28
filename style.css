@@ -1,0 +1,43 @@
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+  .content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    height: 100vh;
+  }
+  .header-msg {
+    width: 600px;
+  }
+  .content > button {
+    align-self: center;
+  }
+  .bg-image,
+  .bg-alpha {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+  
+  .bg-image {
+    z-index: -10;
+    background-image: url("resources/sunny-beach.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-alpha {
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+  }
